@@ -1,0 +1,65 @@
+body {
+  background-image: url("https://images.pexels.com/photos/884788/pexels-photo-884788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+hr { 
+  border-style: dotted none none;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+}
+
+h1:hover {
+  color: #66BFBF;
+  animation: 3s linear 1s infinite alternate slidein;
+}
+.name{
+  color: blue;
+}
+h3 {
+  color: #66BFBF;
+  /*font-style: italic;
+    padding-left: 5px;*/
+}
+
+img {
+  cursor: grab;
+}
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+h1 {
+  color: #66BFBF;
+  animation: 3s linear 1s infinite alternate slidein;
+}
